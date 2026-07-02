@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/primary">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="32dp" android:gravity="center">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="CineVault" android:textSize="40sp" android:textColor="@color/accent"
+            android:textStyle="bold" android:layout_marginBottom="8dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/login" android:textSize="22sp" android:textColor="@color/white"
+            android:layout_marginBottom="32dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            style="@style/CineVault.TextInput"
+            android:layout_marginBottom="16dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_email" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="@string/email"
+                android:inputType="textEmailAddress" android:textColor="@color/white"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            style="@style/CineVault.TextInput"
+            app:passwordToggleEnabled="true" android:layout_marginBottom="24dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_password" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="@string/password"
+                android:inputType="textPassword" android:textColor="@color/white"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ProgressBar android:id="@+id/progress_bar" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:visibility="gone" android:layout_marginBottom="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_login" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/login"
+            android:backgroundTint="@color/accent" android:layout_marginBottom="16dp"/>
+
+        <TextView android:id="@+id/tv_register" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/no_account"
+            android:textColor="@color/accent" android:padding="8dp"/>
+    </LinearLayout>
+</ScrollView>

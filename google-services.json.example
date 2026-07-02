@@ -1,0 +1,6 @@
+{
+  "_comment": "Baixe o arquivo google-services.json real no Console do Firebase (Configurações do Projeto > Seus apps > Android) e substitua este arquivo de exemplo. Coloque-o em app/google-services.json",
+  "project_info": {
+    "project_id": "cinevault-xxxxx"
+  }
+}

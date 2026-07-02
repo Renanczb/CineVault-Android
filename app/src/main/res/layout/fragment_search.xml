@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/primary" android:padding="16dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        style="@style/CineVault.TextInput"
+        android:layout_marginBottom="12dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_search" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="@string/search_hint"
+            android:textColor="@color/white" android:imeOptions="actionSearch"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ProgressBar android:id="@+id/progress_bar" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+
+    <TextView android:id="@+id/tv_empty" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="@string/no_results"
+        android:textColor="@color/text_secondary" android:gravity="center"
+        android:visibility="gone" android:padding="32dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view" android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

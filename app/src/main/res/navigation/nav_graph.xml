@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment"
+        android:name="com.cinevault.ui.home.HomeFragment"
+        android:label="Home">
+        <action android:id="@+id/action_homeFragment_to_searchFragment" app:destination="@id/searchFragment"/>
+        <action android:id="@+id/action_homeFragment_to_listsFragment" app:destination="@id/listsFragment"/>
+        <action android:id="@+id/action_homeFragment_to_privateFragment" app:destination="@id/privateFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/searchFragment"
+        android:name="com.cinevault.ui.search.SearchFragment"
+        android:label="Search">
+        <action android:id="@+id/action_searchFragment_to_detailsFragment" app:destination="@id/detailsFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/listsFragment"
+        android:name="com.cinevault.ui.lists.ListsFragment"
+        android:label="Lists">
+        <argument android:name="listType" app:argType="string" android:defaultValue="watched"/>
+        <action android:id="@+id/action_listsFragment_to_detailsFragment" app:destination="@id/detailsFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/privateFragment"
+        android:name="com.cinevault.ui.private.PrivateFragment"
+        android:label="Private">
+        <action android:id="@+id/action_privateFragment_to_detailsFragment" app:destination="@id/detailsFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/detailsFragment"
+        android:name="com.cinevault.ui.details.DetailsFragment"
+        android:label="Details">
+        <argument android:name="movieId" app:argType="integer"/>
+    </fragment>
+
+    <fragment android:id="@+id/settingsFragment"
+        android:name="com.cinevault.ui.settings.SettingsFragment"
+        android:label="Settings"/>
+</navigation>

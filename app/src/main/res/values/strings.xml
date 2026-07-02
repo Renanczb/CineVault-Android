@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CineVault</string>
+    <string name="welcome_user">Olá, %1$s!</string>
+    <string name="fill_all_fields">Preencha todos os campos</string>
+    <string name="passwords_not_match">As senhas não coincidem</string>
+    <string name="list_watched">Assistidos</string>
+    <string name="list_watchlist">Quero Assistir</string>
+    <string name="list_private">Favoritos Privados</string>
+    <string name="search_hint">Buscar filmes...</string>
+    <string name="empty_list">Nenhum filme aqui ainda</string>
+    <string name="no_results">Nenhum resultado encontrado</string>
+    <string name="add_to_watched">+ Assistidos</string>
+    <string name="add_to_watchlist">+ Quero Assistir</string>
+    <string name="add_to_private">+ Favoritos</string>
+    <string name="remove_movie">Remover filme</string>
+    <string name="confirm_remove">Remover "%1$s" da lista?</string>
+    <string name="remove">Remover</string>
+    <string name="cancel">Cancelar</string>
+    <string name="move_to">Mover para</string>
+    <string name="poster_of">Pôster de %1$s</string>
+    <string name="backdrop_of">Imagem de capa de %1$s</string>
+    <string name="runtime_minutes">%1$d min</string>
+    <string name="biometric_title">Favoritos Privados</string>
+    <string name="biometric_subtitle">Autentique-se para acessar</string>
+    <string name="biometric_not_available">Biometria não disponível</string>
+    <string name="biometric_failed">Autenticação falhou</string>
+    <string name="locked_message">Conteúdo protegido por biometria</string>
+    <string name="settings">Configurações</string>
+    <string name="language">Idioma</string>
+    <string name="english">Inglês</string>
+    <string name="logout">Sair</string>
+    <string name="login">Entrar</string>
+    <string name="register">Cadastrar</string>
+    <string name="email">E-mail</string>
+    <string name="password">Senha</string>
+    <string name="confirm_password">Confirmar senha</string>
+    <string name="name">Nome</string>
+    <string name="no_account">Não tem conta? Cadastre-se</string>
+    <string name="have_account">Já tem conta? Entrar</string>
+    <string name="home">Início</string>
+    <string name="search">Busca</string>
+</resources>

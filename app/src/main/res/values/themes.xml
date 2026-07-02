@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CineVault" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="android:colorBackground">@color/primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <!-- Aplica o estilo de input com foco visivel em todos os TextInputLayout -->
+        <item name="textInputStyle">@style/CineVault.TextInput</item>
+    </style>
+
+    <style name="Theme.CineVault.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Campo de texto: contorno/rotulo de foco na cor de destaque (visivel no fundo escuro) -->
+    <style name="CineVault.TextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/accent</item>
+        <item name="hintTextColor">@color/accent</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+    </style>
+</resources>
