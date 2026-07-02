@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎬 CineVault — Android Nativo
+# 🎬 CineVault - Android Nativo
 
 **Aplicativo Android de gerenciamento de filmes pessoal, desenvolvido em Kotlin como parte de trabalho acadêmico de Desenvolvimento Mobile.**
 
@@ -8,7 +8,6 @@
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![TMDB](https://img.shields.io/badge/TMDB-01B4E4?style=for-the-badge&logo=themoviedatabase&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
 
 </div>
 
